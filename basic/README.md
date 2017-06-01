@@ -18,3 +18,17 @@ AWS 教育訓練
 ## 訓練目標
 
 ![Imgur](http://i.imgur.com/UwE4kXi.png)
+
+## 課程大綱
+
+- [開場、AWS 介紹](index/01-introduction.md)
+- [基礎知識](index/02-basic_knowledge.md)
+- [LAB PART.1 入門實戰 - EC2 AND VPC](index/03-lab1.md)
+- [LAB PART.2 基礎架構 - Private/Public Subnet](index/04-lab2.md)
+- [LAB PART.3 Autoscaling](index/05-lab3.md)
+- [LAB PART.4 Packer build AMI](index/06-lab4.md)
+- [LAB PART.5 CI / CD (CodeDeploy)](index/07-lab5_codedeploy.md)
+- [LAB PART.5 CI / CD (Github AND Travis CI)](index/08-lab5_github_and_travis.md)
+- [AWS Security](index/09-security.md)
+- [AWS 知識補充](index/10-more.md)
+
