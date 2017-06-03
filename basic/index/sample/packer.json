@@ -1,0 +1,20 @@
+{
+  "builders": [
+    {
+      "type": "amazon-ebs",
+      "access_key": "請用自己的",
+      "secret_key": "請用自己的",
+      "region": "us-west-2",
+      "source_ami": "請用packer打包的ami",
+      "instance_type": "t2.micro",
+      "ssh_username": "ec2-user",
+      "ami_name": "packer {{timestamp}}"
+    }
+  ],
+  "provisioners": [
+    {
+      "type": "shell",
+      "script": "packer_ami.sh"
+    }
+  ]
+}

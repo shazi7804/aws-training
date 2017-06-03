@@ -1,0 +1,15 @@
+version: 0.0
+os: linux
+files:
+  - source: htdoc
+    destination: /var/www/html
+hooks:
+  ApplicationStop:
+    - location: scripts/ServiceStop.sh
+      timeout: 180
+  BeforeInstall:
+    - location: scripts/EraseApp.sh
+      timeout: 180
+  ApplicationStart:
+    - location: scripts/RunFunctionalTests.sh
+      timeout: 180
