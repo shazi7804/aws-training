@@ -11,5 +11,5 @@ hooks:
     - location: scripts/EraseApp.sh
       timeout: 180
   ApplicationStart:
-    - location: scripts/RunFunctionalTests.sh
+    - location: scripts/ServiceStart.sh
       timeout: 180

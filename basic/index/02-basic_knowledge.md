@@ -1,5 +1,7 @@
 # 基礎知識
 
+[簡報下載](https://github.com/104corp/104-aws-training/blob/master/basic/index/ppt/02_Basic_knowledge.pptx)
+
 - Virtual Machines
   - Full Virtualization
   - Para Virtualization
