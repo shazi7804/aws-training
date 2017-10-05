@@ -5,5 +5,4 @@ modules/
 Gemfile.lock
 vendor/
 keys/
-
-
+.DS_Store
