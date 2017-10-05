@@ -31,7 +31,3 @@ AWS 教育訓練
 - [LAB PART.6 CI / CD (Github AND Travis CI)](index/08-lab6.md)
 - [AWS Security](index/09-security.md)
 - [AWS 知識補充](index/10-more.md)
-
-## Schedule
-* 第四梯次 (2017-04-20 ~ 2017-06-29)
-* [第五梯次](schedule/five.md) (2017-06-05 ~ 2017-08-16)
